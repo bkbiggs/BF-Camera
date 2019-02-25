@@ -5,10 +5,10 @@ bird feeder.
 
 crontab is used to start (or restart) the camera.py master code. 
 
-camera.py loops over a 2 minute photo cycle, which 
-    - stamps the photo with the current datetime (datetime_image.sh)
-    - creates the icon version of the photo for user (make_icon.sh)
-    - "updates" a monitoring version of the current picture for web monitoring
+camera.py loops over a 2 minute photo cycle, which <br>
+    - stamps the photo with the current datetime (datetime_image.sh)<br>
+    - creates the icon version of the photo for user (make_icon.sh)<br>
+    - "updates" a monitoring version of the current picture for web monitoring<br>
 
 camera.py makes sure that the photo isn't captured unless it's taken between between
 sunrise and sunset. That time frame is provided in the sunrise_sunset.data file
