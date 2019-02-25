@@ -59,7 +59,7 @@ for i in range ( (30 * 13) ):
 
    subprocess.call(['/bin/sh',  '/home/pi/datetime_image.sh', image_pathname])
    subprocess.call(['/bin/sh',  '/home/pi/make_icon.sh', image_pathname, icon_pathname]) 
-   subprocess.call(['sudo', 'ln', "-f", s , '/var/www/html/myImage.jpg'])
+   subprocess.call(['sudo', 'ln', "-f", image_pathname , '/var/www/html/myImage.jpg'])
 
    if (t > end_t):
        break
